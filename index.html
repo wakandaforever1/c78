@@ -1,0 +1,26 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body>
+    <h4 id="online_games"></h4>
+    <h5 id="first_game"></h5>
+    <h6 id="last _game"></h6>
+    <h1 id="arnav"></h1>
+    <script>
+        var games=["minecraft","clash of clans","clash royale"]
+        console.log(games);
+        games.push("temple run");
+        document.getElementById("online_games").innerHTML = games;
+        document.getElementById("first_game") .innerHTML = games[0]
+        
+      games.sort()
+        document.getElementById ("arnav").innerHTML  = games;
+    </script>
+
+</body>
+
+
+</html>
